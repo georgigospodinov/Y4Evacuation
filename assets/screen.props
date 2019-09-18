@@ -1,0 +1,38 @@
+# Window
+window width=1600
+window height=900
+
+# All values below must be between 0 and 1.
+# They get multiplied by the dimensions above.
+
+# Map
+map x=0.0
+map y=0.0
+map width=0.80
+map height=0.95
+
+# State details
+state x=0.80
+state y=0.00
+state width=0.20
+state height=0.50
+
+# Button
+button x=0.80
+button y=0.50
+button width=0.20
+button height=0.05
+
+# Exit button
+exit x=0.80
+exit y=0.95
+exit width=0.20
+exit height=0.05
+
+# Graph params.
+coord x multiplier=0.085
+coord y multiplier=0.085
+circle diameter=0.10
+flat x displacement=0.08
+flat y displacement=0.08
+font size=0.026

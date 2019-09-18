@@ -1,0 +1,22 @@
+separator=,
+line start={
+line end=},
+# Codes
+this intersection code=0
+connected code=5
+not connected code=10
+init code=2
+goal code=8
+
+first intersection id=a
+
+# Files
+file extension=.txt
+coordinates filename=assets/maps/loc
+connections filename=assets/maps/con
+first index=1
+last index=9
+
+# accepted values are 'manhattan' and 'chebyshev'
+# anything else defaults to 'euclidean'
+heuristic to use=euclidean
